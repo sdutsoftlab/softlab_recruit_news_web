@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 软件实验室纳新网站前端
 
 技术栈：bootstrap3.3.7 + axios + vue.js2.5.2
@@ -30,3 +31,7 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+=======
+# Softlab_recruit_news_web
+实验室纳新网站前端
+>>>>>>> d102d62ae9fab873519a4a4669a6a94a542a15aa
