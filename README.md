@@ -8,9 +8,9 @@ http://211.64.28.178/news
 
 ### 图片预览
 
-![主页](https://iqxqzx.gitee.io/pic/images/2019/11/17/1.png)
+![首页](https://i.loli.net/2019/11/17/to2XvCJOWuxTVGy.jpg)
 
-![报名](https://iqxqzx.gitee.io/pic/images/2019/11/17/2.png)
+![纳新](https://iqxqzx.gitee.io/pic/images/2019/11/17/2.png)
 
 
 ## Build Setup
