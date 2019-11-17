@@ -10,7 +10,7 @@ http://211.64.28.178/news
 
 ![首页](https://i.loli.net/2019/11/17/to2XvCJOWuxTVGy.jpg)
 
-![纳新](https://iqxqzx.gitee.io/pic/images/2019/11/17/2.png)
+![纳新](https://i.loli.net/2019/11/17/zdsDGJR261LnWPt.jpg)
 
 
 ## Build Setup
