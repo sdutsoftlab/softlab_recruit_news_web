@@ -7,11 +7,10 @@ import Contact from '@/components/Contact'
 import Query from '@/components/Query'
 Vue.use(Router)
 
-export default new Router({
+const router = new Router({
   mode: "history",
-  base: __dirname,
-  routes: [
-    {
+  base: "/news/",
+  routes: [{
       path: '*',
       redirect: '/'
     },
@@ -39,3 +38,8 @@ export default new Router({
     }
   ]
 })
+
+export default router
+router.afterEach((to, from, next) => {
+  window.scrollTo(0, 0);
+});

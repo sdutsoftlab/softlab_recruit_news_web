@@ -4,7 +4,7 @@
 
 -----
 ### 网站地址
-http://211.64.28.178/news
+https://sdutsoftlab.github.io/
 
 ### 图片预览
 

@@ -12,17 +12,28 @@ import QS from 'qs'
 Vue.prototype.qs = QS;
 
 Vue.config.productionTip = false
-axios.defaults.timeout = 10000;                        //响应时间
-axios.defaults.headers.post['Content-Type'] = 'application/json;charset=UTF-8';        //配置请求头
-axios.defaults.baseURL = 'api';   //配置接口地址
+axios.defaults.timeout = 10000; //响应时间
+axios.defaults.headers.post['Content-Type'] = 'application/json;charset=UTF-8'; //配置请求头
+axios.defaults.baseURL = 'api'; //配置接口地址
 
+console.log(
+  `%c sdutsoftlab %c joinUs：https://sdutsoftlab.github.io/ %c`,
+  'background:#35495e ; padding: 1px; border-radius: 3px 0 0 3px;  color: #fff',
+  'background:#41b883 ; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff',
+  'background:transparent'
+);
 
 Vue.use(VueResource)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
-  components: { Nav, App, Foot, Home },
+  components: {
+    Nav,
+    App,
+    Foot,
+    Home
+  },
   template: `
     <div id="app">
       <Nav/>
