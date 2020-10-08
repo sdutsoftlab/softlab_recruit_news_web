@@ -14,7 +14,8 @@ Vue.prototype.qs = QS;
 Vue.config.productionTip = false
 axios.defaults.timeout = 10000; //响应时间
 axios.defaults.headers.post['Content-Type'] = 'application/json;charset=UTF-8'; //配置请求头
-axios.defaults.baseURL = 'api'; //配置接口地址
+axios.defaults.baseURL = 'https://ihui.ink/softlab/'; //配置接口地址
+// axios.defaults.baseURL = 'http://127.0.0.1:8082/'; //配置接口地址
 
 console.log(
   `%c sdutsoftlab %c joinUs：https://sdutsoftlab.github.io/ %c`,

@@ -26,12 +26,12 @@ export default {
     query(e) {
       if (this.username != null) {
         this.$axios
-          .get("/query/" + this.username)
+          .get("user/query?uid=" + this.username)
           .then(resp => {
             alert(resp.data.message);
           })
           .catch(error => {
-            alert("查询失败或未开放");
+            alert("查询无此人");
           });
       } else {
         alert("请填写完整的数据");
